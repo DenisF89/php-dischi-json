@@ -41,13 +41,6 @@
             "coverurl": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/3\/3b\/Dark_Side_of_the_Moon.png",
             "year": 1973,
             "genre": "Progressive Rock"
-        },
-        {
-            "title": "<?php echo \"stronzo\" ?>",
-            "artist": "Oasis",
-            "coverurl": "https:\/\/m.media-amazon.com\/images\/I\/81KXANILcXL._UF1000,1000_QL80_.jpg",
-            "year": "1950",
-            "genre": "Rock"
         }
     ]
 }
