@@ -3,44 +3,51 @@
         {
             "title": "A Night at the Opera",
             "artist": "Queen",
-            "coverurl": "https://upload.wikimedia.org/wikipedia/en/e/ef/Bohemian_Rhapsody_music_video_still.png",
+            "coverurl": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/e\/ef\/Bohemian_Rhapsody_music_video_still.png",
             "year": 1975,
             "genre": "Rock"
         },
         {
             "title": "Abbey Road",
             "artist": "The Beatles",
-            "coverurl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/The_Beatles_Abbey_Road_album_cover.jpg",
+            "coverurl": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a4\/The_Beatles_Abbey_Road_album_cover.jpg",
             "year": 1969,
             "genre": "Pop Rock"
         },
         {
             "title": "Appetite for Destruction",
             "artist": "Guns N' Roses",
-            "coverurl": "https://m.media-amazon.com/images/I/81rvJ7chswL._UF1000,1000_QL80_.jpg",
+            "coverurl": "https:\/\/m.media-amazon.com\/images\/I\/81rvJ7chswL._UF1000,1000_QL80_.jpg",
             "year": 1987,
             "genre": "Hard Rock"
         },
         {
             "title": "The Doors",
             "artist": "The Doors",
-            "coverurl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/98/TheDoorsTheDoorsalbumcover.jpg/250px-TheDoorsTheDoorsalbumcover.jpg",
+            "coverurl": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/9\/98\/TheDoorsTheDoorsalbumcover.jpg\/250px-TheDoorsTheDoorsalbumcover.jpg",
             "year": 1967,
             "genre": "Psychedelic Rock"
         },
         {
             "title": "Sticky Fingers",
             "artist": "The Rolling Stones",
-            "coverurl": "https://m.media-amazon.com/images/I/91gnOcKqHgL._UF350,350_QL80_.jpg",
+            "coverurl": "https:\/\/m.media-amazon.com\/images\/I\/91gnOcKqHgL._UF350,350_QL80_.jpg",
             "year": 1971,
             "genre": "Blues Rock"
         },
         {
             "title": "The Dark Side of the Moon",
             "artist": "Pink Floyd",
-            "coverurl": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png",
+            "coverurl": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/3\/3b\/Dark_Side_of_the_Moon.png",
             "year": 1973,
             "genre": "Progressive Rock"
+        },
+        {
+            "title": "<?php echo \"stronzo\" ?>",
+            "artist": "Oasis",
+            "coverurl": "https:\/\/m.media-amazon.com\/images\/I\/81KXANILcXL._UF1000,1000_QL80_.jpg",
+            "year": "1950",
+            "genre": "Rock"
         }
     ]
 }

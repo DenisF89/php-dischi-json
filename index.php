@@ -41,9 +41,34 @@ $albums = $obj['albums'];
                     </div>
                 </div>
             <?php } ?>
-
         </div>
-        
+
+        <form class="row row-cols g-3 align-items-center mt-4" action="server.php" method="post">
+            <div class="col-4">
+                <input type="text" class="form-control" id="albumTitle" name="albumTitle" placeholder="Title">
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" id="albumArtist" name="albumArtist" placeholder="Artist">
+            </div>
+            <div class="col-4">
+                <input type="text" class="form-control" id="albumUrl" name="albumUrl" placeholder="Url">
+            </div>
+            <div class="col-2">
+                <input type="number" class="form-control" id="albumYear" name="albumYear" min="1950" max="2026" placeholder="Year">
+            </div>
+            <div class="col-2">
+                <select class="form-select" id="albumGenre" name="albumGenre">
+                <option selected disabled>Genre...</option>
+                <option value="Pop">Pop</option>
+                <option value="Rock">Rock</option>
+                <option value="Funky">Funky</option>
+                <option value="Jazz">Jazz</option>
+                </select>
+            </div>
+            <div class="col">
+                <button type="submit" class="btn btn-primary">Add Album</button>
+            </div>
+        </form>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
