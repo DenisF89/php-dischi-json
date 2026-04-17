@@ -8,11 +8,11 @@
 
     $json = file_get_contents("./dischi.json");
 
-    $obj = json_decode($json, true);
+    $albums = json_decode($json, true);
 
-    $obj["albums"][] = $newAlbum;
+    $albums[] = $newAlbum;
 
-    $json_text_updated = json_encode($obj, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+    $json_text_updated = json_encode($albums, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
 
     file_put_contents("./dischi.json", $json_text_updated);
 

@@ -1,7 +1,7 @@
 <?php
 $string = file_get_contents('dischi.json');
-$obj = json_decode($string, true);
-$albums = $obj['albums'];
+$albums = json_decode($string, true);
+//var_dump($albums);
 ?>
 
 <!DOCTYPE html>
